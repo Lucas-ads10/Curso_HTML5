@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cadastro da liga dos astronautas</title>
+</head>
+<body>
+    <h2>Cadastro da liga dos astronautas</h2>
+    <form>
+        <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+        
+        <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        
+        <label for="password"> - Senha:</label>
+            <input type="password" id="password" name="password" required><br>
+        
+        <label for="data-nascimento">Data de nascimento:</label>
+            <input type="date" id="data-nascimento" name="data-nascimento" required>
+        
+        <label for="arquivo">Foto:</label>
+            <input type="file" id="arquivo" name="arquivo" required><br>
+        
+        <select name="Nacionalidade">
+            <option value="opção1">Português</option>
+            <option value="opção2">Espanhol</option>
+            <option value="opção3">Ingles</option>
+        </select>
+
+        <label for="radio"> - Genero
+            <input type="radio" id="genero1" name="genero1" value="M">
+                <label for="genero1">M</label> 
+            <input type="radio" id="genero2" name="genero2" value="F">
+                <label for="genero1">F</label><br> 
+        </label>
+
+        <label for="qualidades">Suas principais qualidades:<br>
+            <input type="checkbox" id="inteligencia" name="inteligencia">
+                <label for="inteligencia">Inteligência |</label>
+            <input type="checkbox" id="resiliencia" name="resiliencia">
+                <label for="resiliencia">Resiliência | </label>
+            <input type="checkbox" id="preparo" name="preparo">
+                <label for="preparo">Preparo fisico | </label>
+            <input type="checkbox" id="educacao" name="educacao">
+                <label for="educacao">Educação | </label><br>
+        </label>    
+
+        <textarea name="mensagem" rows="4" cols="40" > Por que você gostaria de ser um astronalta ?</textarea><br>
+            
+        <input type="submit" value="Criar">
+            
+    </form>
+</body>
+</html>
